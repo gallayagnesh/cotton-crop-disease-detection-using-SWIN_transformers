@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Image Classification</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link href="style.css" rel="stylesheet">
+  <style>
+    body {
+      background-color: #f1f1f1;
+      background-image: url("sun.jpg");
+      background-size: 
+    }
+    h2 {
+      text-align: center;
+    img {
+      display: block;
+      margin: 0 auto;
+    }
+  </style>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+<div class="container">
+  <h1 class="jumbotron text-white text-center bg-secondary">Image Classification</h1>
+  <br><br>
+  <form class="form-horizontal" action="/submit" method="post" enctype="multipart/form-data">
+    <div class="form-group">
+      <label class="control-label col-sm-2" for="pwd">Upload Your Image :</label>
+      <div class="col-sm-10">          
+        <input type="file" class="form-control" placeholder="Hours Studied"  name="my_image" id="pwd">
+      </div>
+    </div>        
+    <div class="d-grid gap-2 col-6 mx-auto">
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </div>
+    <br>
+  </form>
+  {% if prediction %}
+  <div style="text-align: center;">
+    <img src={{img_path}} height="200px" width="200px">
+    <h2><b>Your Prediction:</b> <i>{{prediction}}</i></h2>
+  </div>
+  {% endif %}
+</div>
+</body>
+</html>
