@@ -1,6 +1,6 @@
 # Cotton Crop Disease Detection using SWIN Transformers
 
-This project is a machine learning-based solution to detect the disease in cotton crops using SWIN Transformers.
+This project is a Deep learning and Computer vision-based solution to detect the disease in cotton crops using SWIN Transformers.
 
 ## Table of Contents
 - [Introduction](#introduction)
