@@ -6,12 +6,12 @@ This project is a machine learning-based solution to detect the disease in cotto
 - [Introduction](#introduction)
 - [Installation](#installation)
 - [Usage](#usage)
+- [Architecture](#architecture)
 - [Results](#results)
 - [Contributing](#contributing)
-- [License](#license)
 
 ## Introduction
-Cotton is one of the most important cash crops in many countries, and its cultivation faces various challenges, including the outbreak of diseases that can cause significant economic losses. Identifying the type of disease and the severity level in a timely manner is essential for effective disease management. This project proposes a deep learning-based solution to detect the disease in cotton crops using SWIN Transformers. We have trained the model on the publicly available [Cotton Disease Dataset](https://drive.google.com/drive/folders/1nJ6rhsY6pWfVPdxZsLEGOU0vwtaJs2N4?usp=share_link) and achieved state-of-the-art results in terms of accuracy and F1 score.
+Cotton is one of the most important cash crops in many countries, and its cultivation faces various challenges, including the outbreak of diseases that can cause significant economic losses. Identifying the type of disease and the severity level in a timely manner is essential for effective disease management. This project proposes a deep learning-based solution to detect the disease in cotton crops using SWIN Transformers. We have trained the model on the publicly available [Cotton Disease Dataset](https://drive.google.com/drive/folders/1nJ6rhsY6pWfVPdxZsLEGOU0vwtaJs2N4?usp=share_link) and achieved state-of-the-art results in terms of accuracy.
 
 ## Installation
 1. Clone this repository: 
