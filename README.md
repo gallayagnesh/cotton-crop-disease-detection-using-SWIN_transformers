@@ -61,6 +61,7 @@ The Shift layer shifts the positions of the patches in a structured manner, whic
 
 The output of each stage is then passed through a downsampling layer, which reduces the resolution of the patches and prepares them for processing in the next stage. This process is repeated for several stages until the final output, which is a vector of probabilities indicating the predicted class of the input image.
 
+Learn more about SWIN Transformers, [read this article](https://towardsdatascience.com/a-comprehensive-guide-to-swin-transformer-64965f89d14c).
 
 ## Results
 Our model achieved a classification accuracy of 96.89% for the test dataset. The confusion matrix and classification report for the test set are included in the `results` directory.
