@@ -5,7 +5,7 @@ This project is a Deep learning and Computer vision-based solution to detect the
 ## Table of Contents
 - [Introduction](#introduction)
 - [Installation](#installation)
-- [Usage](#usage)
+- [Dataset](#dataset)
 - [Architecture](#architecture)
 - [Results](#results)
 - [Contributing](#contributing)
@@ -23,14 +23,33 @@ git clone https://github.com/gallayagnesh/cotton_crop_disease_detection_using_SW
 pip install -r requirements.txt
 ```
 
-## Usage
-1. Download the [Cotton Disease Dataset](https://drive.google.com/drive/folders/1nJ6rhsY6pWfVPdxZsLEGOU0vwtaJs2N4?usp=share_link) and extract it to a directory named "dataset" in the project root directory.
-2. Open a terminal in the project root directory and replace the dataset training images path in the python notebook.
-3. After the model is trained, you can save the model for the deployment.
+## Dataset
+
+This dataset contains a total of 5816 photos of Cotton leaves that have been divided into four categories or classes. Download the [Cotton Disease Dataset](https://drive.google.com/drive/folders/1nJ6rhsY6pWfVPdxZsLEGOU0vwtaJs2N4?usp=share_link) and extract it to a directory named "dataset" in the project root directory.
+
+### Dataset Split
+
+Out of the total images, 4652 photos were used for training the model and 1164 images were used for validating the model.
+
+### Category Distribution
+
+The four categories in the dataset along with the number of images in each category are listed below:
+
+| Category | No. of Images |
+| --- | --- |
+| Healthy | 848 |
+| Bacterial Blight | 838 |
+| Curl Virus | 1078 |
+| Fusarium Wilt | 3052 |
+
+As can be seen from the above table, there is an imbalance in the distribution of images across categories, with Fusarium Wilt having a significantly larger number of images compared to the other categories. This is because Fusarium Wilt is the most common local disease found in cotton crops. 
+
+This dataset can be used to train and evaluate models for identifying different types of cotton leaf diseases and can be useful for researchers working in the field of agriculture and plant pathology.
 
 ## Architecture
 ![Architecture Diagram](https://github.com/gallayagnesh/cotton_crop_disease_detection_using_SWIN_transformers/blob/main/SWIN%20Architecture.png)
-The Swin Transformer architecture can be divided into two main components: the patch embedding stage and the hierarchical transformer stage.
+The Swin Transformer architecture can be divided into two main components:
+Patch embedding stage and Hierarchical transformer stage.
 
 In the patch embedding stage, the input image is first divided into non-overlapping patches of a fixed size. Each patch is then linearly projected into a lower-dimensional vector, which is passed through a small feedforward network to generate an initial feature representation.
 
