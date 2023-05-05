@@ -24,7 +24,7 @@ pip install -r requirements.txt
 ```
 
 ## Usage
-1. Download the [Cotton Disease Dataset][(https://www.kaggle.com/janmejaybhoi/cotton-disease-dataset](https://drive.google.com/drive/folders/1nJ6rhsY6pWfVPdxZsLEGOU0vwtaJs2N4?usp=share_link)) and extract it to a directory named "dataset" in the project root directory.
+1. Download the [Cotton Disease Dataset](https://drive.google.com/drive/folders/1nJ6rhsY6pWfVPdxZsLEGOU0vwtaJs2N4?usp=share_link) and extract it to a directory named "dataset" in the project root directory.
 2. Open a terminal in the project root directory and replace the dataset training images path.
 3. After the model is trained, you can save the model for the deployment.
 
