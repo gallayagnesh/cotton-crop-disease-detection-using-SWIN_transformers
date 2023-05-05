@@ -16,7 +16,7 @@ Cotton is one of the most important cash crops in many countries, and its cultiv
 ## Installation
 1. Clone this repository: 
 ```
-git clone https://github.com/gallayagnesh/cotton-crop-disease-detection-using-SWIN_transformers.git
+git clone https://github.com/gallayagnesh/cotton_crop_disease_detection_using_SWIN_transformers.git
 ```
 2. Install the required dependencies using pip:
 ```
