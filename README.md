@@ -29,7 +29,7 @@ pip install -r requirements.txt
 3. After the model is trained, you can save the model for the deployment.
 
 ## Architecture
-[!Architecture Diagram]()
+![Architecture Diagram](https://github.com/gallayagnesh/cotton_crop_disease_detection_using_SWIN_transformers/blob/main/SWIN%20Architecture.png)
 
 ## Results
 Our model achieved a classification accuracy of 96.89% for the test dataset. The confusion matrix and classification report for the test set are included in the `results` directory.
