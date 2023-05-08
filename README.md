@@ -7,6 +7,7 @@ This project is a Deep learning and Computer vision-based solution to detect the
 - [Installation](#installation)
 - [Dataset](#dataset)
 - [Architecture](#architecture)
+- [Implementation](#implementation)
 - [Results](#results)
 - [Contributing](#contributing)
 
@@ -63,8 +64,15 @@ The output of each stage is then passed through a downsampling layer, which redu
 
 Learn more about SWIN Transformers, [read this article](https://towardsdatascience.com/a-comprehensive-guide-to-swin-transformer-64965f89d14c).
 
+## Implementation
+
+1. Replace the dataset folder path with your working dataset directory path.
+2. After execution, save the model for the deployment.
+3. Run the ```app.py``` in the Spyder IDE.
+4. In the terminal, there will be a local host address. Open it and upload the image which have to be detected. 
+
 ## Results
-Our model achieved a classification accuracy of 96.89% for the test dataset. The confusion matrix and classification report for the test set are included in the `results` directory.
+This model achieved a classification accuracy of 96.89% for the test dataset. The confusion matrix and classification report for the test set are included in the `results` directory.
 
 ## Contributing
 Contributions to this project are welcome. To contribute, please fork the repository, create a new branch, and submit a pull request.
