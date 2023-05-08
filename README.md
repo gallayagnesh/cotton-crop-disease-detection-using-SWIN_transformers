@@ -76,10 +76,10 @@ Learn more about SWIN Transformers, [read this article](https://towardsdatascien
 1. Replace the dataset folder path with your working dataset directory path.
 2. After execution, save the model for the deployment.
 3. Run the ```app.py``` in the Spyder IDE.
-4. In the terminal, there will be a local host address. Open it and upload the image which have to be detected. 
+4. In the terminal, there will be a local host address. Open it and upload the image which have to be detected. Those uploaded images are saved in the ```webapp/static``` folder.
 
 ## Results
-This model achieved a classification accuracy of 96.89% for the test dataset. The confusion matrix and classification report for the test set are included in the `results` directory.
+This model achieved a classification accuracy of 96.89% for the test dataset. The confusion matrix, classification report for the test set and also deployment results are included in the `results` directory.
 
 ## Contributing
 Contributions to this project are welcome. To contribute, please fork the repository, create a new branch, and submit a pull request.
