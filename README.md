@@ -5,6 +5,7 @@ This project is a Deep learning and Computer vision-based solution to detect the
 ## Table of Contents
 - [Introduction](#introduction)
 - [Installation](#installation)
+- [Prerequisites](#prerequisites)
 - [Dataset](#dataset)
 - [Architecture](#architecture)
 - [Implementation](#implementation)
@@ -23,6 +24,12 @@ git clone https://github.com/gallayagnesh/cotton_crop_disease_detection_using_SW
 ```
 pip install -r requirements.txt
 ```
+
+## Prerequisites
+
+1. Python3
+2. Spyder IDE
+
 
 ## Dataset
 
