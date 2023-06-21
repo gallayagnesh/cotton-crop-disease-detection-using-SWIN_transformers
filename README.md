@@ -55,7 +55,7 @@ As can be seen from the above table, there is an imbalance in the distribution o
 This dataset can be used to train and evaluate models for identifying different types of cotton leaf diseases and can be useful for researchers working in the field of agriculture and plant pathology.
 
 ## Architecture
-![Architecture Diagram](https://github.com/gallayagnesh/cotton_crop_disease_detection_using_SWIN_transformers/blob/main/SWIN%20Architecture.png)
+![Architecture Diagram](<img src="./SWIN Architecture.png" alt="SWIN Architecture">)
 The Swin Transformer architecture can be divided into two main components:
 Patch embedding stage and Hierarchical transformer stage.
 
@@ -63,9 +63,9 @@ In the patch embedding stage, the input image is first divided into non-overlapp
 
 In the hierarchical transformer stage, the network processes the patches in a hierarchical manner using multiple stages of transformer blocks. Each stage contains a certain number of transformer blocks, and each block consists of two layers: a Swin layer and a Shift layer.
 
-The Swin layer applies a multi-head self-attention mechanism to the input patches, allowing the network to capture global relationships between them. Specifically, the Swin layer applies a self-attention operation to each patch, and then uses another set of linear projections to combine the information across all patches. This operation is similar to the self-attention mechanism used in the original Transformer architecture.
+The Swin layer applies a multi-head self-attention mechanism to the input patches, allowing the network to capture global relationships between them. Specifically, the Swin layer applies a self-attention operation to each patch and then uses another set of linear projections to combine the information across all patches. This operation is similar to the self-attention mechanism used in the original Transformer architecture.
 
-The Shift layer shifts the positions of the patches in a structured manner, which helps to reduce computational complexity and improve efficiency. Specifically, the Shift layer first divides the patches into groups, and then shifts the positions of the patches within each group. This operation creates overlapping regions between adjacent patches, which helps to capture more local information about the input image.
+The Shift layer shifts the positions of the patches in a structured manner, which helps to reduce computational complexity and improve efficiency. Specifically, the Shift layer first divides the patches into groups and then shifts the positions of the patches within each group. This operation creates overlapping regions between adjacent patches, which helps to capture more local information about the input image.
 
 The output of each stage is then passed through a downsampling layer, which reduces the resolution of the patches and prepares them for processing in the next stage. This process is repeated for several stages until the final output, which is a vector of probabilities indicating the predicted class of the input image.
 
@@ -74,12 +74,12 @@ Learn more about SWIN Transformers, [read this article](https://towardsdatascien
 ## Implementation
 
 1. Replace the dataset folder path with your working dataset directory path.
-2. After execution, save the model for the deployment.
+2. After execution, save the model for deployment.
 3. Run the ```app.py``` in the Spyder IDE.
-4. In the terminal, there will be a local host address. Open it and upload the image which have to be detected. Those uploaded images are saved in the ```webapp/static``` folder.
+4. In the terminal, there will be a local host address. Open it and upload the image which has to be detected. Those uploaded images are saved in the ```webapp/static``` folder.
 
 ## Results
-This model achieved a classification accuracy of 96.89% for the test dataset. The confusion matrix, classification report for the test set and also deployment results are included in the `results` directory.
+This model achieved a classification accuracy of 96.89% for the test dataset. The confusion matrix, classification report for the test set, and also deployment results are included in the `results` directory.
 
 ## Contributing
 Contributions to this project are welcome. To contribute, please fork the repository, create a new branch, and submit a pull request.
