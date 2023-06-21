@@ -55,7 +55,7 @@ As can be seen from the above table, there is an imbalance in the distribution o
 This dataset can be used to train and evaluate models for identifying different types of cotton leaf diseases and can be useful for researchers working in the field of agriculture and plant pathology.
 
 ## Architecture
-![Architecture Diagram](<img src="./SWIN Architecture.png" alt="SWIN Architecture">)
+![Architecture Diagram](https://github.com/gallayagnesh/cotton_crop_disease_detection_using_SWIN_transformers/blob/main/SWIN%20Architecture.png)
 The Swin Transformer architecture can be divided into two main components:
 Patch embedding stage and Hierarchical transformer stage.
 
